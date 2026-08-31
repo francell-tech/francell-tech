@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fran.Cell | Accesorios y Tecnología</title>
+    <link rel="stylesheet" href="style.css?v=2.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="top-bar">
+        ⚡ ENVÍOS A TODO EL PAÍS | CUOTAS SIN INTERÉS EN PRODUCTOS SELECCIONADOS ⚡
+    </div>
+
+    <!-- BOTÓN DE WHATSAPP FLOTANTE -->
+    <a href="https://wa.me/tu-numero-aqui" class="whatsapp-float" target="_blank" aria-label="Contacto por WhatsApp">
+        <svg class="whatsapp-icon" viewBox="0 0 24 24">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+    </a>
+
+    <!-- HEADER / NAVEGACIÓN -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">FRAN<span>.CELL</span></a>
+            
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="nav-menu">
+                <a href="#iphone" class="nav-link">iPhone</a>
+                <a href="#samsung" class="nav-link">Samsung</a>
+                <a href="#android" class="nav-link">Android</a>
+                <a href="#pc" class="nav-link">Accesorios PC</a>
+                <a href="#outlet" class="nav-link badge-outlet">Outlet 🔥</a>
+            </nav>
+
+            <button class="cart-btn">
+                🛒 <span>0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-badge">Tecnología & Accesorios</span>
+            <h1>Equipa tus dispositivos con la mejor calidad</h1>
+            <p>Cargadores rápidos, cables reforzados, audio y periféricos con garantía asegurada.</p>
+            <div class="hero-buttons">
+                <a href="#catalog" class="btn btn-primary">Ver Catálogo</a>
+                <a href="#outlet" class="btn btn-secondary">Ofertas Outlet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATEGORÍAS RÁPIDAS -->
+    <section class="container categories-overview">
+        <h2 class="section-title">Categorías Principales</h2>
+        <div class="cat-grid">
+            <a href="#iphone" class="cat-card">
+                <div class="cat-bg iphone-bg"></div>
+                <h3>iPhone</h3>
+                <span>Cargadores y Cables</span>
+            </a>
+            <a href="#samsung" class="cat-card">
+                <div class="cat-bg samsung-bg"></div>
+                <h3>Samsung</h3>
+                <span>Carga Ultra Rápida</span>
+            </a>
+            <a href="#android" class="cat-card">
+                <div class="cat-bg android-bg"></div>
+                <h3>Android</h3>
+                <span>Soportes y Audio</span>
+            </a>
+            <a href="#pc" class="cat-card">
+                <div class="cat-bg pc-bg"></div>
+                <h3>Accesorios PC</h3>
+                <span>Periféricos y Gamer</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- CATÁLOGOS DE PRODUCTOS -->
+    <main class="container catalog-container" id="catalog">
+
+        <!-- SECCIÓN IPHONE -->
+        <section class="catalog-section" id="iphone">
+            <div class="section-header">
+                <h2>Accesorios para iPhone</h2>
+                <p>Cargadores de alta velocidad y cables con certificación</p>
+            </div>
+            <div class="products-grid">
+
+                <div class="product-card">
+                    <span class="product-badge">Nuevo</span>
+                    <div class="product-image-container">
+                        <img src="usb 4 en 1.jpg" alt="USB 4 en 1" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Cable USB Reforzado</span>
+                        <h3 class="product-title">USB 4 EN 1 USB A + TIPO C + LIGHTNING</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (42)</p>
+                        <div class="product-footer">
+                            <span class="price">$5.500</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="cargador iphone c a c.jpg" alt="Cargador iPhone" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Cargador Completo</span>
+                        <h3 class="product-title">CARGADOR IPHONE + CABLE TIPO C A TIPO C 35W CALIDAD ORIGINAL</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (128)</p>
+                        <div class="product-footer">
+                            <span class="price">$16.000</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <span class="product-badge">Carga Rápida</span>
+                    <div class="product-image-container">
+                        <img src="Cabezal iphone 35w.jpg" alt="Cabezal iPhone 35W" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Cabezal 35W</span>
+                        <h3 class="product-title">CARGADOR CABEZAL IPHONE 35W CALIDAD ORIGINAL</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (89)</p>
+                        <div class="product-footer">
+                            <span class="price">$11.200</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="cable usb tipo c a c.jpg" alt="Cable USB C a C" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Cable iPhone</span>
+                        <h3 class="product-title">CABLE USB IPHONE TIPO C A TIPO C CALIDAD ORIGINAL</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (64)</p>
+                        <div class="product-footer">
+                            <span class="price">$6.000</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN SAMSUNG -->
+        <section class="catalog-section" id="samsung">
+            <div class="section-header">
+                <h2>Accesorios para Samsung</h2>
+                <p>Cargadores y periféricos compatibles</p>
+            </div>
+            <div class="products-grid">
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="Cabezal samsung.jpg" alt="Cabezal Samsung" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Samsung Original</span>
+                        <h3 class="product-title">CABEZAL CARGADOR SAMSUNG SUPER FAST CHARGING</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (95)</p>
+                        <div class="product-footer">
+                            <span class="price">$12.500</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="cabezal ultrarapido.jpg" alt="Cabezal Carga Ultra Rápida" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Carga Ultra Rápida</span>
+                        <h3 class="product-title">CABEZAL CARGADOR ULTRA RÁPIDO USB-C MULTI VOLTAJE</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (51)</p>
+                        <div class="product-footer">
+                            <span class="price">$10.800</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="cable micro usb.jpg" alt="Cable Micro USB" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Cable Universal</span>
+                        <h3 class="product-title">CABLE MICRO USB REFORZADO CARGA Y DATOS</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (33)</p>
+                        <div class="product-footer">
+                            <span class="price">$3.200</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN ANDROID & ACCESORIOS -->
+        <section class="catalog-section" id="android">
+            <div class="section-header">
+                <h2>Android & Audio</h2>
+                <p>Auriculares, soportes y accesorios universales</p>
+            </div>
+            <div class="products-grid">
+
+                <div class="product-card">
+                    <span class="product-badge">Popular</span>
+                    <div class="product-image-container">
+                        <img src="auricular inalambrico xiaomi.jpg" alt="Auricular Xiaomi" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Audio Bluetooth</span>
+                        <h3 class="product-title">AURICULARES INALÁMBRICOS XIAOMI EARBUDS</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (110)</p>
+                        <div class="product-footer">
+                            <span class="price">$18.900</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="Soporte touch celular manubrio bicicleta y moto.jpg" alt="Soporte Celular" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Soportes</span>
+                        <h3 class="product-title">SOPORTE TOUCH CELULAR MANUBRIO BICICLETA Y MOTO</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (47)</p>
+                        <div class="product-footer">
+                            <span class="price">$8.400</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="TRIPODE MINI CELULAR CAMARA NETMAK UNIV....jpg" alt="Trípode Mini" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Accesorios Foto</span>
+                        <h3 class="product-title">TRÍPODE MINI CELULAR Y CÁMARA NETMAK UNIVERSAL</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (29)</p>
+                        <div class="product-footer">
+                            <span class="price">$6.700</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="TRIPODE PLEGABLE 1.02 MTS - AJUSTABLE - ....jpg" alt="Trípode Plegable" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Accesorios Foto</span>
+                        <h3 class="product-title">TRÍPODE PLEGABLE 1.02 MTS AJUSTABLE CON SOPORTE</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (74)</p>
+                        <div class="product-footer">
+                            <span class="price">$12.000</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN PC & GAMER -->
+        <section class="catalog-section" id="pc">
+            <div class="section-header">
+                <h2>Accesorios PC & Gaming</h2>
+                <p>Periféricos para potenciar tu setup</p>
+            </div>
+            <div class="products-grid">
+
+                <div class="product-card">
+                    <span class="product-badge">Gamer</span>
+                    <div class="product-image-container">
+                        <img src="AURICULAR RGB GAMER 3.5 JACK + USB NETMAK NM-N25 BLAN....jpg" alt="Auricular Gamer" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Headset Gamer</span>
+                        <h3 class="product-title">AURICULAR RGB GAMER 3.5 JACK + USB NETMAK NM-N25</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (83)</p>
+                        <div class="product-footer">
+                            <span class="price">$22.500</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="MOUSE GAMER 7D RGB 3600DPI NETMAK NM-GM53.jpg" alt="Mouse Gamer" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Periféricos PC</span>
+                        <h3 class="product-title">MOUSE GAMER 7D RGB 3600DPI NETMAK NM-GM53</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (92)</p>
+                        <div class="product-footer">
+                            <span class="price">$9.300</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="TECLADO GAMER PC USB MECANICO RETROILUMIN....jpg" alt="Teclado Gamer" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Periféricos PC</span>
+                        <h3 class="product-title">TECLADO GAMER PC USB MECÁNICO RETROILUMINADO</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (150)</p>
+                        <div class="product-footer">
+                            <span class="price">$28.000</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="JOYSTICK PLAYSTATION 4 PS4 SONY TIPO ORIGINAL - C....jpg" alt="Joystick PS4" class="product-img">
+                    </div>
+                    <div class="product-info">
+                        <span class="product-cat">Mandos & Consolas</span>
+                        <h3 class="product-title">JOYSTICK PLAYSTATION 4 PS4 TIPO ORIGINAL DUALSHOCK</h3>
+                        <p class="product-rating">⭐⭐⭐⭐⭐ (205)</p>
+                        <div class="product-footer">
+                            <span class="price">$24.900</span>
+                            <button class="btn-buy">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo">FRAN<span>.CELL</span></a>
+                <p>Tu tienda de confianza para accesorios de celulares, carga rápida y tecnología en general. Envíos garantizados y la mejor atención.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navegación</h4>
+                <a href="#iphone">iPhone</a>
+                <a href="#samsung">Samsung</a>
+                <a href="#android">Android</a>
+                <a href="#pc">Accesorios PC</a>
+            </div>
+            <div class="footer-col">
+                <h4>Atención</h4>
+                <a href="#">Preguntas Frecuentes</a>
+                <a href="#">Garantías</a>
+                <a href="#">Envíos y Entregas</a>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+            <div class="footer-col">
+                <h4>Novedades</h4>
+                <p>Suscríbete para recibir ofertas exclusivas y nuevos ingresos.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Tu correo electrónico" required>
+                    <button class="btn btn-primary" type="submit">OK</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fran.Cell - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
